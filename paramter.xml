@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+	<parameter name="user112" value="anand@gmail.com"></parameter>
+	<parameter name="pass222" value="anand@123"></parameter>
+	<classes>
+		<class name="org.testngprog.ParameterPRog"></class>
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
