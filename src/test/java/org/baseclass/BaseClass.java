@@ -39,10 +39,10 @@ public class BaseClass {
 		driver.close();
 	}
 	
-//	private void getDataFromExcel(filename, sheetname,rownum,cellnum) {
-//		// TODO Auto-generated method stub
-//
-//	}
+	public static WebElement findElementName(String name) {
+		WebElement elementName = driver.findElement(By.name(name));
+		return elementName;
+	}
 	
 	
 	
