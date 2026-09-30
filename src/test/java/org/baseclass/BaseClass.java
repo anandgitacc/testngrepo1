@@ -39,9 +39,18 @@ public class BaseClass {
 		driver.close();
 	}
 	
+//<<<<<<< HEAD
+	
+//=======
 	public static WebElement findElementName(String name) {
 		WebElement elementName = driver.findElement(By.name(name));
 		return elementName;
+//>>>>>>> 4795687073afad2f12311047962a4b6639abd505
+	}
+	
+	public static WebElement findElementText(String text) {
+		WebElement elementtext = driver.findElement(By.linkText(text));
+		return elementtext;
 	}
 	
 	
